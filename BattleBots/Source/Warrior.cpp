@@ -13,7 +13,7 @@ using namespace std;
 
 Warrior :: Warrior(uint16_t loc) : Robot(loc, 300, WARRIOR_ENUM)
 {
-	armor = new Armor("Steel", 2);
+	armor = new Armor("Steel", 3);
 	weapon = new Weapon(40, 255);
 }
 

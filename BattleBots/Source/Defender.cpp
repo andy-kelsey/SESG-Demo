@@ -13,7 +13,7 @@ using namespace std;
 
 Defender :: Defender(uint16_t loc) : Robot(loc, 400, DEFENDER_ENUM)
 {
-	armor = new Armor("Titanium", 3);
+	armor = new Armor("Titanium", 4);
 	weapon = new Weapon(65, 150);
 }
 

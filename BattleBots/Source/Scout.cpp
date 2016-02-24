@@ -13,7 +13,7 @@ using namespace std;
 
 Scout :: Scout(uint16_t loc) : Robot(loc, 200, SCOUT_ENUM)
 {
-	armor = new Armor("Tin", 1);
+	armor = new Armor("Tin", 2);
 	weapon = new Weapon(30, 500);
 }
 

@@ -31,6 +31,8 @@ public:
 	uint16_t getLocation(void);
 	uint16_t getHealth(void);
 	void setHealth(int16_t);
+
+	friend class Battle;
 };
 
 #endif //ROBOT_H_

@@ -20,7 +20,7 @@ public:
 	void setRange(uint16_t);
 	uint16_t getRange(void);
 
-	friend Battle;
+	friend class Battle;
 };
 
 

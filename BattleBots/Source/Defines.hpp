@@ -16,6 +16,7 @@ typedef enum{
 	SCOUT_ENUM,
 	WARRIOR_ENUM,
 	DEFENDER_ENUM,
+	SNIPER_ENUM,
 	NO_TYPE_ENUM
 }_robot;
 

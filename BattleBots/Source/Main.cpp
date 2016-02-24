@@ -17,7 +17,7 @@ extern void main(void)
 	Battle* battle;
 
 	//player one robot selection
-	cout << "Player 1 Choose Your Battle Bot! (Scout, Warrior, or Defender)" << endl;
+	cout << "Player 1 Choose Scout, Warrior, or Defender" << endl;
 	cin >> botInput1;
 
 	if(strcmp(botInput1, "Scout") == 0)
@@ -39,7 +39,7 @@ extern void main(void)
 	}
 
 	//player two robot selection
-	cout << "Player 2 Choose Your Battle Bot! (Scout, Warrior, or Defender)" << endl;
+	cout << "Player 2 Choose Scout, Warrior, or Defender" << endl;
 	cin >> botInput2;
 	if(strcmp(botInput2, "Scout") == 0)
 	{

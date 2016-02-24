@@ -88,7 +88,7 @@ void Battle::moveRobot(Robot* robot, int16_t steps, uint16_t range)
 {
 	char_t input[ARRAY_SIZE];
 
-	cout << "Range is :"<< range << " Would you like to move closer? (y/n)" << endl;
+	cout << "Range is:"<< range << " Would you like to move closer? (y/n)" << endl;
 	cin >> input;
 
 	if (strcmp(input, "y") == 0)

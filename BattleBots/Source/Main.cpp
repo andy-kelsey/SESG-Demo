@@ -5,6 +5,7 @@
 #include "Scout.hpp"
 #include "Warrior.hpp"
 #include "Defender.hpp"
+#include "Sniper.hpp"
 
 using namespace std;
 
@@ -17,7 +18,7 @@ extern void main(void)
 	Battle* battle;
 
 	//player one robot selection
-	cout << "Player 1 Choose Your Battle Bot! (Scout, Warrior, or Defender)" << endl;
+	cout << "Player 1 Choose Your Battle Bot! (Scout, Warrior, Sniper, or Defender)" << endl;
 	cin >> botInput1;
 
 	if(strcmp(botInput1, "Scout") == 0)
@@ -32,6 +33,10 @@ extern void main(void)
 	{
 		robot1 = new Defender(STARTING_LOCATION_1);
 	}
+	else if(strcmp(botInput1, "Sniper") == 0)
+	{
+		robot1 = new Sniper(STARTING_LOCATION_1);
+	}
 	else
 	{
 		cout << "ERROR: Player 1 is set to Scout by Default" << endl;
@@ -39,7 +44,7 @@ extern void main(void)
 	}
 
 	//player two robot selection
-	cout << "Player 2 Choose Your Battle Bot! (Scout, Warrior, or Defender)" << endl;
+	cout << "Player 2 Choose Your Battle Bot! (Scout, Warrior, Sniper, or Defender)" << endl;
 	cin >> botInput2;
 	if(strcmp(botInput2, "Scout") == 0)
 	{
@@ -52,6 +57,10 @@ extern void main(void)
 	else if(strcmp(botInput2, "Defender") == 0)
 	{
 		robot2 = new Defender(STARTING_LOCATION_2);
+	}
+	else if(strcmp(botInput1, "Sniper") == 0)
+	{
+		robot1 = new Sniper(STARTING_LOCATION_2);
 	}
 	else
 	{

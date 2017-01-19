@@ -12,6 +12,6 @@
 #include <stdlib.h>
 
 int main(void) {
-	printf("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	printf("!!!Hello Study Group!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }

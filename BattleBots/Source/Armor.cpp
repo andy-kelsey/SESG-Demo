@@ -22,7 +22,7 @@ Armor::~Armor()
 
 void Armor::setDefenseModifier(uint16_t modifier)
 {
-	uiDefenseModifier = modifier;
+	uiDefenseModifier = modifier +10;
 }
 
 uint16_t Armor::getDefenseModifier()
